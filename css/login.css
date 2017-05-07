@@ -10,3 +10,18 @@ body {
     .column {
       max-width: 450px;
     }
+    
+.ui.input input::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.ui.input input::-moz-placeholder {
+  text-align: right;
+}
+
+.ui.input input:-ms-input-placeholder {
+  text-align: right;
+}
+.rtl-dir{
+    direction:rtl !important;
+}
